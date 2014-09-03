@@ -17,7 +17,9 @@ before_script:
 after_script:
   - "/etc/init.d/xvfb stop"
 
-
+branches:
+ only:
+   - master
 
 notifications:
   email: vidya@shippable.com
