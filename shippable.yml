@@ -17,9 +17,6 @@ before_script:
 after_script:
   - "/etc/init.d/xvfb stop"
 
-reset_minion: true
-
-
-notifications:
-  email:
-    - exampleone@org.com
+branches:
+  only:
+    - master
