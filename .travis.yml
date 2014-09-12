@@ -13,9 +13,11 @@ services:
 before_script:
   - "export DISPLAY=:99.0"
   - "/etc/init.d/xvfb start"
+  - firefox --version
 
 after_script:
   - "/etc/init.d/xvfb stop"
+  
 
 branches:
  only:
