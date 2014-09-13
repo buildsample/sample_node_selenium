@@ -2,10 +2,10 @@ language: node_js
 
 node_js:
   - "0.10"
-  #- "0.11"
+  - "0.11"
 
 addons:
-   firefox: "27.0"
+   firefox: "32.0"
 
 services:
   - selenium
@@ -15,8 +15,8 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - firefox --version
 
-after_script:
-  - "sh -e /etc/init.d/xvfb stop"
+#after_script:
+ # - "sh -e /etc/init.d/xvfb stop"
   
 
 branches:
