@@ -5,7 +5,7 @@ node_js:
   #- "0.11"
 
 addons:
-   firefox: "27.0"
+   firefox: "32.0"
 
 services:
   - selenium
@@ -13,10 +13,4 @@ services:
 before_script:
   - "export DISPLAY=:99.0"
   - "/etc/init.d/xvfb start"
-
-after_script:
-  - "/etc/init.d/xvfb stop"
-
-branches:
-  only:
-    - master
+  - firefox --version
