@@ -16,8 +16,6 @@ before_script:
   - firefox --version
 
 
-  
-
 branches:
  only:
    - master
