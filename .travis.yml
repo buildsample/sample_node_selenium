@@ -15,7 +15,9 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - firefox --version
-
+  - echo $key1
+env:
+ - secure: BlBIJz7mevNmlnhxXF0hTiNhnUI9bL0MaVGZFqbZG/dS5zjg4Gvhf/damgIHY0kmMpbZWPxxOp4T/TbvPPC+vuuYuR/fnJGy6eNm5+GI8Im/FTsYNGY8TikhZzRpMO8aYF3DhENMstQzNFABQvgwQiagQTfEuo+oEG8XZfqrbF98AMRmiELcxvOjJnGDCs8mqJUgvO1ZKKGGg4UyZc58/E+IrW9IO8y0oqE4HbHR3PixRqixjZBh8khjJymb7ABtJhmuJsLnKauOIMki7Ttx1UqMztDzYU7j4m8jR9UEyfHwJbBmNNSdQMa1StBOfKikDzS1VMqFaSvYPfBp9aYkJQ==
 
 
 branches:
