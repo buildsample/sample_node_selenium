@@ -6,7 +6,7 @@ node_js:
 
 addons:
    firefox: "31.0"
-   selenium: "2.41"
+   selenium: "2.43"
 
 services:
   - selenium
