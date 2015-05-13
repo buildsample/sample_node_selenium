@@ -12,3 +12,5 @@ services:
 before_script:
   - "export DISPLAY=:99.0"
   - "/etc/init.d/xvfb start"
+
+archive: true
