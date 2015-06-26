@@ -23,6 +23,7 @@ env:
 branches:
  only:
    - master
+   - newbr1
    
 #build_image: shippable/minv2:beta 
 
