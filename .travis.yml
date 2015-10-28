@@ -4,7 +4,9 @@ node_js:
   #- "0.10"
   - "0.11"
   #- "0.12"
-
+env:
+ - secure: pV0mx/1OjcCmKNfI46ZqzzVUrTdQvbwnIESPqnU8gVPOtyA8/cPo3ih2lAEc0UHESi/nPE1ssgAIqkS5BC23Fp4yB0zuwbeSm4M3DmYtsIGzvjYJdWp6L4O0HDxzbnAf1BwVrdgBECbO7vzGWwpvhDGgKZdl6AcunxkfWscLu0KgHUT2LqpigTmAAmjzvH6nVmXDT/g76PqYj7KWS2oyQRbCiqCrMohpK076wte4NWx1R269xz991Yy6nyQ7NS8sokV6wEQU1PxL1+dGOkS0+LDptYe6kHm00uow4ba4o5147Pnx79eyY9vkvN+uTm06w47YA0tNJzqd1yCgbeiqsQ==
+ 
 addons:
    firefox: "32.0"
    selenium: "2.42"
@@ -17,8 +19,6 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - firefox --version
   - echo $key1
-env:
- - secure: BlBIJz7mevNmlnhxXF0hTiNhnUI9bL0MaVGZFqbZG/dS5zjg4Gvhf/damgIHY0kmMpbZWPxxOp4T/TbvPPC+vuuYuR/fnJGy6eNm5+GI8Im/FTsYNGY8TikhZzRpMO8aYF3DhENMstQzNFABQvgwQiagQTfEuo+oEG8XZfqrbF98AMRmiELcxvOjJnGDCs8mqJUgvO1ZKKGGg4UyZc58/E+IrW9IO8y0oqE4HbHR3PixRqixjZBh8khjJymb7ABtJhmuJsLnKauOIMki7Ttx1UqMztDzYU7j4m8jR9UEyfHwJbBmNNSdQMa1StBOfKikDzS1VMqFaSvYPfBp9aYkJQ==
 
 
 branches:
