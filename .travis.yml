@@ -8,7 +8,7 @@ env:
  - secure: pV0mx/1OjcCmKNfI46ZqzzVUrTdQvbwnIESPqnU8gVPOtyA8/cPo3ih2lAEc0UHESi/nPE1ssgAIqkS5BC23Fp4yB0zuwbeSm4M3DmYtsIGzvjYJdWp6L4O0HDxzbnAf1BwVrdgBECbO7vzGWwpvhDGgKZdl6AcunxkfWscLu0KgHUT2LqpigTmAAmjzvH6nVmXDT/g76PqYj7KWS2oyQRbCiqCrMohpK076wte4NWx1R269xz991Yy6nyQ7NS8sokV6wEQU1PxL1+dGOkS0+LDptYe6kHm00uow4ba4o5147Pnx79eyY9vkvN+uTm06w47YA0tNJzqd1yCgbeiqsQ==
  
 addons:
-   firefox: "32.0"
+   firefox: "27.0"
    selenium: "2.44"
 
 services:
