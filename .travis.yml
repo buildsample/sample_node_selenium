@@ -16,11 +16,12 @@ services:
 
 before_script:
   - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
+  #- "sh -e /etc/init.d/xvfb start"
   - firefox --version
   - echo $key1
 
-
+script:
+   - xvfb-run npm test
 build_image: drydock/u14nodpls:tip 
 #build_image: shippable/minv2:beta 
 
