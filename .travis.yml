@@ -21,10 +21,7 @@ before_script:
   - echo $key1
 
 
-branches:
- only:
-   - master
-   
+build_image: drydock/u14nodpls:tip 
 #build_image: shippable/minv2:beta 
 
 archive: true
