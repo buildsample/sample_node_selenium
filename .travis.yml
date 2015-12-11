@@ -27,3 +27,5 @@ build_image: drydock/u14nodpls:tip
 
 archive: true
 #cache: true 
+services:
+   - selenium
