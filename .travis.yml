@@ -7,9 +7,9 @@ node_js:
 
 addons:
    firefox: "27.0"
-  # selenium: "2.44"
+   selenium: "2.44"
 
-build_image: drydock/u14nodpls:tip
+build_image: drydock/u12nodpls:tip
 
 services:
   - selenium
