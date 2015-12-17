@@ -11,8 +11,8 @@ addons:
 
 build_image: drydock/u14nodpls:tip
 
-services:
-  - selenium
+#services:
+ # - selenium
 
 script:
  - xvfb-run --server-args="-ac" npm test
